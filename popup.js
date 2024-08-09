@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {kanji: "厚い", furigana: "あつい", meaning: " سميك، ثخين، غليظ"},
         {kanji: "あっち", furigana: "あっち", meaning: "صيغة مختزلة وعاميّة لـِ あちら"},
         {kanji: "後", furigana: "あと", meaning: "فيما بعد؛ في المستقبل؛ البقية؛ منذ ذلك الحين"},
-        {kanji: "あなた", furigana: "あなた", meaning: "أنتَ، أنتِ / عزيزي"}, // وصلت هنا !!!!
+        {kanji: "あなた", furigana: "あなた", meaning: "أنتَ، أنتِ / عزيزي"}, 
         {kanji: "兄", furigana: "あに", meaning: "أخي الأكبر (بتواضع)"},
         {kanji: "姉", furigana: "あね", meaning: "أختي الكبرى (بتواضع)"},
         {kanji: "アパート", furigana: "アパート", meaning: "شقة"},
