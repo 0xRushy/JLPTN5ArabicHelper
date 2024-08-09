@@ -28,9 +28,13 @@
 3. Add words to your favorites by clicking the "Add to Favorites" button. Review them later by clicking "View Favorites".
 4. Click on "About" to learn more about the extension and its purpose.
 
-## Screenshots
+## Example Video
+Here is a video demonstration:
 
-Include screenshots of the extension in use here.
+<video width="600" controls>
+  <source src="Videos/EG2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Contributing
 
