@@ -12,6 +12,8 @@
 - **Previous and Next Navigation:** Users can easily navigate through the words using the "Next" and "Previous" buttons.
 - **About Section:** Provides information about the extension and its creator.
 - **Simple and Intuitive Design:** The extension features a clean and user-friendly interface, with a dark theme that is easy on the eyes.
+- **Listen on Forvo:** A button is provided to listen to the pronunciation of the vocabulary word by a native speaker on Forvo.
+
 
 ## Installation
 
@@ -27,6 +29,7 @@
 2. Review the vocabulary word presented, and click on "Next" to see a new word.
 3. Add words to your favorites by clicking the "Add to Favorites" button. Review them later by clicking "View Favorites".
 4. Click on "About" to learn more about the extension and its purpose.
+5. Click on "Listen on Forvo" to hear the pronunciation by a native speaker.
 
 ## Project UI
 
