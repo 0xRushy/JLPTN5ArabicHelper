@@ -28,13 +28,12 @@
 3. Add words to your favorites by clicking the "Add to Favorites" button. Review them later by clicking "View Favorites".
 4. Click on "About" to learn more about the extension and its purpose.
 
-## Example Video
-Here is a video demonstration:
+## Project UI
 
-<video width="600" controls>
-  <source src="Videos/EG2.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+
+![Screenshot 1](Screenshots/SC1.png)
+
 
 ## Contributing
 
