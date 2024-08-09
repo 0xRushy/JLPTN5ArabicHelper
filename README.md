@@ -1,4 +1,4 @@
-# Daily JLPT N5 Vocabulary Extension
+# Daily JLPT N5 Vocabulary Extension (Initial Release)
 
 ![Alt text](https://jlpt.jlsm.org/img/logo-jlpt.png)
 
