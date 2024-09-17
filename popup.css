@@ -121,41 +121,25 @@ body {
     background-color: #350d0b;
 }
 
-.favorite-btn {
-    position: absolute;
-    bottom: 5px;
-    right: 10px;
-    background-color: #FFA500;
-    color: white;
-    border: none;
-    padding: 5px 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-family: 'Zain', Arial, sans-serif;
-    font-weight: bold;
+#favoriteBtn,
+#removeBtn {
+    font-family: inherit;
+    font-weight: inherit;
 }
 
-.favorite-btn:hover {
+#favoriteBtn {
+    background-color: #FFA500;
+}
+
+#favoriteBtn:hover {
     background-color: #FF8C00;
 }
 
-.remove-btn {
+#removeBtn {
     background-color: #8b0f0f;
-    color: white;
-    border: none;
-    padding: 5px 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-family: 'Zain', Arial, sans-serif;
-    font-weight: bold;
-    position: absolute;
-    bottom: 5px;
-    right: 10px;
 }
 
-.remove-btn:hover {
+#removeBtn:hover {
     background-color: #CC0000;
 }
 
@@ -163,6 +147,20 @@ body {
     font-size: 1.2em;
     color: #D95F59;
     margin-top: 20px;
+    font-family: 'Zain', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.action-btn {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: white;
+    border: none;
+    padding: 5px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
     font-family: 'Zain', Arial, sans-serif;
     font-weight: bold;
 }
