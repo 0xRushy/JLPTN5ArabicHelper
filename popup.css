@@ -1,0 +1,168 @@
+body {
+    font-family: 'Zain', Arial, sans-serif;
+    background-color: #522258;
+    text-align: center;
+    padding: 20px;
+    direction: rtl;
+}
+
+.card-container {
+    perspective: 1000px;
+    display: inline-block;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    width: 250px;
+    height: 200px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.card.flip {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back,
+.card-about {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+}
+
+.card-back,
+.card-about {
+    background-color: #333333;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.kanji,
+.furigana,
+.meaning,
+.about-content {
+    font-size: 2.2em;
+    margin-top: 10px;
+    font-family: 'Zain', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.kanji {
+    color: #8C3061;
+}
+
+.furigana {
+    color: #C63C51;
+}
+
+.meaning {
+    color: #D95F59;
+    display: none;
+}
+
+.about-content {
+    color: #D95F59;
+    text-align: center;
+    padding: 20px;
+}
+
+.audio {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.audio a {
+    text-decoration: none;
+    color: white;
+    background-color: #C63C51;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-family: 'Zain', Arial, sans-serif;
+}
+
+.audio a:hover {
+    background-color: #D95F59;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-container button {
+    background-color: #C63C51;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Zain', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.btn-container button:hover {
+    background-color: #350d0b;
+}
+
+.favorite-btn {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    padding: 5px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Zain', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.favorite-btn:hover {
+    background-color: #FF8C00;
+}
+
+.remove-btn {
+    background-color: #8b0f0f;
+    color: white;
+    border: none;
+    padding: 5px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Zain', Arial, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.remove-btn:hover {
+    background-color: #CC0000;
+}
+
+.no-favorites {
+    font-size: 1.2em;
+    color: #D95F59;
+    margin-top: 20px;
+    font-family: 'Zain', Arial, sans-serif;
+    font-weight: bold;
+}

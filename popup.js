@@ -22,6 +22,20 @@ document.addEventListener('DOMContentLoaded', function () {
   let showingFavorites = false;
   let showingAbout = false;
 
+  fetch('vocab-list.json')
+    .then(response => response.json())
+    .then(data => {
+      vocabList = data;
+      shuffle(vocabList);
+      loadVocab(currentIndex);
+
+      if (favorites.length > 0) {
+        noFavoritesMessage.style.display = 'none';
+      } else {
+        noFavoritesMessage.style.display = 'block';
+      }
+    })
+    .catch(error => console.error('Error loading vocabulary data:', error));
 
 
 
