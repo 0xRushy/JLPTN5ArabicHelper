@@ -168,12 +168,4 @@ document.addEventListener('DOMContentLoaded', function () {
   viewFavoritesBtn.addEventListener('click', toggleFavorites);
   aboutBtn.addEventListener('click', toggleAbout);
   removeBtn.addEventListener('click', removeFavorite);
-
-  shuffle(vocabList);
-  loadVocab(currentIndex);
-  if (favorites.length > 0) {
-    noFavoritesMessage.style.display = 'none';
-  } else {
-    noFavoritesMessage.style.display = 'block';
-  }
 });
