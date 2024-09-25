@@ -54,7 +54,7 @@ body {
 .about-content {
     font-size: 2.2em;
     margin-top: 10px;
-    font-family: 'Zain', Arial, sans-serif;
+
     font-weight: bold;
 }
 
@@ -91,39 +91,29 @@ body {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
-    font-family: 'Zain', Arial, sans-serif;
+    font-size: small;
 }
 
 .audio a:hover {
     background-color: #D95F59;
 }
 
-.btn-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.btn-container button {
-    background-color: #C63C51;
+.action-btn {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
     color: white;
     border: none;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-family: 'Zain', Arial, sans-serif;
     font-weight: bold;
-}
-
-.btn-container button:hover {
-    background-color: #350d0b;
+    font-size: small;
 }
 
 #favoriteBtn,
 #removeBtn {
-    font-family: inherit;
     font-weight: inherit;
 }
 
@@ -143,24 +133,34 @@ body {
     background-color: #CC0000;
 }
 
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-container button {
+    background-color: #C63C51;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    font-weight: bold;
+}
+
+.btn-container button:hover {
+    background-color: #350d0b;
+}
+
+
 .no-favorites {
     font-size: 1.2em;
     color: #D95F59;
     margin-top: 20px;
-    font-family: 'Zain', Arial, sans-serif;
-    font-weight: bold;
-}
 
-.action-btn {
-    position: absolute;
-    bottom: 5px;
-    right: 10px;
-    color: white;
-    border: none;
-    padding: 5px 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-family: 'Zain', Arial, sans-serif;
     font-weight: bold;
 }
